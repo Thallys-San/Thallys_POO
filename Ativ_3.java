@@ -1,4 +1,4 @@
-package Matheus_POO;
+package Thallys_POO;
 import java.util.Scanner;
 public class Ativ_3 {
     public static void main(String[] args) {
