@@ -1,0 +1,17 @@
+package Thallys_Tarde_Ativ_1.Main.Program;
+
+import java.util.Scanner;
+import Thallys_Tarde_Ativ_1.Main.Object.NumberInfo;
+
+public class Program {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Insira um numero: ");
+        int number = sc.nextInt();
+
+        NumberInfo Obj = new NumberInfo(number);
+
+        // Exibir o resultado chamando o toString() da classe NumberInfo
+        System.out.println(Obj.toString());
+    }
+}
